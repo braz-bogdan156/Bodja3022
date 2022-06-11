@@ -1,0 +1,10 @@
+﻿.k{
+    width:150px;
+    border-radius:20px;
+}
+.bordered{
+    border-radius:20px !important;
+}
+.About {
+    border-radius: 10px !important;
+}

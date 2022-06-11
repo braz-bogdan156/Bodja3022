@@ -1,0 +1,49 @@
+﻿.calc{
+    margin:50px auto;
+    width: 300px;
+    height: 434px;
+    border: 1px solid #000;
+    border-radius:20px;
+    background: #000;
+    color:#fff;
+    font-family:Arial;
+   
+    }
+.calc-screen {
+    height: 125px;
+    display: grid;
+    justify-items:end;
+    text-align:left;
+    padding:0px 0px 0px 0px;
+}
+.buttons{
+    display:grid;
+    grid-template-areas:
+        "ac plus-minus percent division"
+        "seven eigth nine multiply"
+        "four five six minus"
+        "one two three plus"
+        "zero zero comma equal"
+}
+.btn {
+    width:73px;
+    height: 60px;
+    line-height:60px;
+    background: #808080;
+    text-align: center;
+    border: 1px solid #000;
+}
+.btn.zero{
+    grid-area:zero;
+    width:148px;
+    border-radius:0px 0px 0px 20px;
+}
+.btn.equal{
+    border-radius:0px 0px 20px 0px;
+}
+.btn.bg-darckgrey{
+    background:#333;
+}
+.btn.bg-orange{
+    background:#ff6a00
+}
